@@ -1,0 +1,3 @@
+# TikTok for Developers URL Verification File
+# This file is used to verify ownership of the URL
+# Please replace this content with the actual downloaded file content 
