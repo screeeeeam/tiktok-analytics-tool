@@ -1,4 +1,4 @@
-﻿# TikTok Analytics Tool
+# TikTok Analytics Tool
 
 A Google Apps Script program that analyzes video impressions using the TikTok official API.
 
