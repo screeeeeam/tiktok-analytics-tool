@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - TikTok Analytics Tool</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #ff0050;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ff0050;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .date {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section p {
+            margin-bottom: 15px;
+        }
+        .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
+        <div class="date">最終更新日: 2024年12月19日</div>
+
+        <div class="section">
+            <h2>1. 基本方針</h2>
+            <p>TikTok Analytics Tool（以下「本サービス」といいます）は、ユーザーの個人情報の保護を最重要事項と考え、個人情報の適切な収集、利用、管理を行います。</p>
+            <p>本プライバシーポリシーは、本サービスにおける個人情報の取り扱いについて定めるものです。</p>
+        </div>
+
+        <div class="section">
+            <h2>2. 収集する情報</h2>
+            <p>本サービスでは、以下の情報を収集する場合があります：</p>
+            
+            <h3>2.1 ユーザーが直接提供する情報</h3>
+            <ul>
+                <li>TikTok API認証情報（アクセストークン、リフレッシュトークン）</li>
+                <li>GoogleスプレッドシートID</li>
+                <li>その他、本サービスの利用に必要な設定情報</li>
+            </ul>
+
+            <h3>2.2 自動的に収集される情報</h3>
+            <ul>
+                <li>TikTok APIから取得される動画データ（動画ID、タイトル、説明、統計情報など）</li>
+                <li>Google Apps Scriptの実行ログ</li>
+                <li>エラー情報（デバッグ目的）</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>重要:</strong> 本サービスは、ユーザーの個人を特定できる情報（氏名、メールアドレス、電話番号など）を収集しません。
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. 情報の利用目的</h2>
+            <p>収集した情報は、以下の目的でのみ利用されます：</p>
+            <ul>
+                <li>本サービスの提供（TikTok動画データの取得とスプレッドシートへの出力）</li>
+                <li>サービスの改善と新機能の開発</li>
+                <li>技術的な問題の解決とサポート</li>
+                <li>法令に基づく対応</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. 情報の管理とセキュリティ</h2>
+            <p>本サービスでは、収集した情報の適切な管理とセキュリティ保護のために以下の措置を講じています：</p>
+            <ul>
+                <li>Google Apps Scriptのスクリプトプロパティ機能を使用した安全な情報保存</li>
+                <li>HTTPS通信によるデータの暗号化</li>
+                <li>アクセス権限の適切な管理</li>
+                <li>定期的なセキュリティ監査</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. 情報の共有と開示</h2>
+            <p>本サービスでは、以下の場合を除き、収集した情報を第三者に提供することはありません：</p>
+            <ul>
+                <li>ユーザーの事前の同意がある場合</li>
+                <li>法令に基づく開示が求められた場合</li>
+                <li>ユーザーまたは第三者の権利、財産、安全を保護するために必要な場合</li>
+                <li>本サービスの利用規約に違反する行為を防止するために必要な場合</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. 外部サービスの利用</h2>
+            <p>本サービスは、以下の外部サービスを利用しています：</p>
+            
+            <h3>6.1 TikTok API</h3>
+            <p>TikTok for Developers が提供するAPIを使用して動画データを取得します。</p>
+            <p>TikTok APIの利用については、<a href="https://developers.tiktok.com/doc/" target="_blank">TikTok for Developers のプライバシーポリシー</a>も併せてご確認ください。</p>
+
+            <h3>6.2 Google Apps Script</h3>
+            <p>Google Apps Scriptを使用してプログラムを実行し、Googleスプレッドシートにデータを出力します。</p>
+            <p>Google Apps Scriptの利用については、<a href="https://policies.google.com/privacy" target="_blank">Googleのプライバシーポリシー</a>も併せてご確認ください。</p>
+        </div>
+
+        <div class="section">
+            <h2>7. 情報の保持期間</h2>
+            <p>収集した情報は、以下の期間保持されます：</p>
+            <ul>
+                <li>TikTok API認証情報: サービスの利用期間中（トークンの有効期限に応じて自動更新）</li>
+                <li>動画データ: スプレッドシートに出力後、本サービス内では保持しません</li>
+                <li>ログ情報: 技術的な問題解決のため、最大30日間</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. ユーザーの権利</h2>
+            <p>ユーザーは、以下の権利を有します：</p>
+            <ul>
+                <li>個人情報の開示請求</li>
+                <li>個人情報の訂正・追加・削除請求</li>
+                <li>個人情報の利用停止・消去請求</li>
+                <li>個人情報の第三者提供停止請求</li>
+            </ul>
+            <p>これらの請求については、お問い合わせフォームを通じてお申し込みください。</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Cookieの使用</h2>
+            <p>本サービスでは、Cookieを使用していません。すべてのデータはGoogle Apps Scriptのスクリプトプロパティ機能を使用して安全に保存されます。</p>
+        </div>
+
+        <div class="section">
+            <h2>10. 未成年者の個人情報</h2>
+            <p>本サービスは、未成年者の個人情報についても適切に取り扱います。未成年者が本サービスを利用する場合は、保護者の同意を得てから利用してください。</p>
+        </div>
+
+        <div class="section">
+            <h2>11. プライバシーポリシーの変更</h2>
+            <p>本プライバシーポリシーは、法令の変更や本サービスの内容変更に伴い、予告なく変更される場合があります。変更があった場合は、本ページでお知らせします。</p>
+        </div>
+
+        <div class="section">
+            <h2>12. 準拠法</h2>
+            <p>本プライバシーポリシーの解釈にあたっては、日本法を準拠法とします。</p>
+        </div>
+
+        <div class="contact">
+            <h2>お問い合わせ</h2>
+            <p>本プライバシーポリシーに関するお問い合わせは、以下の方法でお願いいたします：</p>
+            <p>GitHub Issues: <a href="https://github.com/your-username/tiktok-analytics-tool/issues" target="_blank">https://github.com/your-username/tiktok-analytics-tool/issues</a></p>
+            
+            <h3>個人情報保護責任者</h3>
+            <p>本サービスの個人情報保護責任者は、GitHub Issuesを通じて連絡を受け付けています。</p>
+        </div>
+    </div>
+</body>
+</html> 

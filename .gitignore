@@ -1,0 +1,18 @@
+﻿# Environment configuration files
+.env
+config.local.js
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
